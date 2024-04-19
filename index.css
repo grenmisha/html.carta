@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+
+{
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .left,
+header .right {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 0;
+    margin-right: 40px;
+
+}
+
+header .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header .menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+header .sign-in {
+    margin-right: 20px;
+}
+
+.section-1 {
+    margin-top: 30px;
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 .flex-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 h1 {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: bold;
+    max-width: 430px;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.description {
+    text-align: center;
+
+}
+
+.section-1 .text-bolock {
+    max-width: 424px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+.section-1 .description {
+    text-align: center;
+    max-width: 290px;
+    margin: 0;
+    margin-bottom: 46px;
+}
+
+.section-1 .buttons-wrap {
+    padding-inline: 15px;
+    text-align: center;
+    DISPLAY: FLEX;
+    align-items: center;
+    column-gap: 36px;
+}
+
+
+.buttons-wrap .request-a-demo {
+    background-color: black;
+    border-radius: 100px;
+    border: none;
+    width: 158px;
+    height: 48px;
+    padding: 0;
+    color: white;
+}
+
+.buttons-wrap .take-a-video-tour {
+    color: black;
+    text-decoration: none;
+}
+
+.section-2 {
+    text-align: center;
+
+}
+
+.section-2 .equity-owners {
+    margin-bottom: 46px;
+    margin-top: 55px;
+}
+
+.section-2 .equity-owners h3 {
+    border: 3px solid black;
+    max-width: 388px;
+    margin: 0 0 6px;
+    padding: 12px 28px;
+    /* height: 93px; */
+    margin: 0 auto 6px;
+    font-size: 69px;
+
+}
+
+.section-2 .equity-owners p {
+    margin: 0;
+}
+
+.section-2 .results {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.section-2 .assets-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 660px;
+    margin-inline: auto;
+
+}
+
+.section-2 .box {
+    max-width: 126px;
+}
+
+.section-2 .logo-companis {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 231px;
+}
+.section-3 {
+    background-color: #e2eef3;
+    padding: 74px 100px 110px; 
+}
+.section-3 .support-title {
+    text-align: center;
+    font-size: 50px;
+    max-width: 528px;
+    color: black;
+    margin-inline: auto;
+}
+.section-3 .equity-box {
+    list-style: none;
+    display: inline;
+}
+.button-container .action-button  {
+   background-color: transparent;
+   border-radius: 20px;
+   padding: 14px 20px;
+   border: none;
+}
+.button-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    max-width: 906px;
+    border-radius:40px;
+    margin-inline: auto;
+    padding-block: 20px;
+}
+.button-container .action-button.active,.button-container .action-button:hover {
+    background-color: rgb( 226,238,243);
+} 
+.management-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+.management {
+    margin-top: 64px;
+}
+.description-managment .management-title{
+    font-size: 27px;
+    margin-bottom: 17px;
+}
+.description-managment .description {
+    font-size: 19px;
+    text-align: left;
+}
+.title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.founders {
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+}
+.hr {
+    display: flex;
+    align-items: center; 
+   margin-bottom: 41px;
+}
+.lawfirms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+}
+.Investors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+}
+.finance {
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+}
+.description-emploer {
+    margin-left: 24px;
+}
+.description-emploer h5 {
+    font-size: 27px;
+    font-weight: 400;
+}
+.description-emploer p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
